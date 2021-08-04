@@ -1,5 +1,6 @@
 (ns sandbox-navigation.core
-  (:require [steroid.rn.core :as rn]))
+  (:require [steroid.rn.core :as rn]
+            ["react-native-gesture-handler"]))
 
 (defn root-comp []
   [rn/view
