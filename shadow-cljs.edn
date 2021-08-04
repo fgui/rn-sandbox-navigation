@@ -6,7 +6,7 @@
                 [rn-shadow-steroid "0.2.8"]
                 [re-frisk-remote "1.5.2"]]
 
- :builds       {:dev
+ :builds       {:app
                 {:target     :react-native
                  :init-fn    sandbox-navigation.core/init
                  :output-dir "app"
